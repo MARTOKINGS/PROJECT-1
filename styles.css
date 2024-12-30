@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.red {
+    background-color: #ffcccc; /* Light red */
+}
+
+.blue {
+    background-color: #cce5ff; /* Light blue */
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.buy-now {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.favorite {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.favorite:hover {
+    color: gold; /* Fill in star on hover */
+}
